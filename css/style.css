@@ -50,9 +50,13 @@ nav .nav-items{
 nav .select {
     font-weight: bold;
 }
+nav a:hover {
+    color: gray;
+}
 nav a {
     color: white;
-    font-size: 14px;    
+    font-size: 14px; 
+
 }
 #image {
     background-color: #ED4C5C;
@@ -152,6 +156,9 @@ margin-top:56px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+}
+#skills a:hover {
+    color: gray;
 }
 #skills a h3 {
     font-size: 18px;
